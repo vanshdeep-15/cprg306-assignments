@@ -1,13 +1,12 @@
-// app/page.js
-import Link from "next/link";
+import Link from 'next/link';
 
-export default function Home() {
+export default function StudentInfo() {
   return (
     <div>
-      <h1>CPRG 306: Web Development 2 - Assignments</h1>
-      <p>
-        <Link href="/week-2">Go to Week 2</Link>
-      </p>
+      <p>Vanshdeep Singh</p>
+      <Link href="https://github.com/vanshdeep-15">
+        My GitHub Repository
+      </Link>
     </div>
   );
 }
